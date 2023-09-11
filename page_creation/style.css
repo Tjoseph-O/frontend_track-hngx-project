@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #EAF6F6;
+}
+
+#display-picture{
+    width: 100px;
+    border-width: 10px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: green;
+}
+.container{
+    border: 1px solid green;
+    padding: 3rem;
+    width: 35rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+.myTrack{
+    /*border: 10px solid red;*/
+    width: fit-content;
+    /*margin: auto;*/
+}
+figcaption{
+    width: fit-content;
+    margin: auto;
+}
+p{
+    margin: 5px;
+}
+a{
+    border: 1px solid green;
+    padding: 5px 10px;
+    border-radius: 7px;
+    background: green;
+    color: white;
+
+}
+@media (max-width: 500px) {
+    .container{
+        /*border: 2px solid red;*/
+        width: 90%;
+    }
+
+}
+
